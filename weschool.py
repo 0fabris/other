@@ -51,8 +51,8 @@ def getLoginInfos():
 		infos = json.load(f)
 		return {
 			"scope":"user",
-			"client_id":"2_63vhapa1xosos88o004cgs4wkg444gcos8sc4gg0gggksc8k0g",
-			"client_secret":"11o29phvsgb488gg4gsso488w480wk484oowcsk4o4cg808048",
+			"client_id":"%clientid%",
+			"client_secret":"%clientsecret%",
 			"grant_type":"password",
 			"username":infos["username"],
 			"password":infos["password"],
